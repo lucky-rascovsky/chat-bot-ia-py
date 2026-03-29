@@ -18,7 +18,7 @@ def inicializar_estado():
     if "mensajes" not in st.session_state:
         st.session_state.mensajes = []
 
-MODELOS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'mistral-saba-24b']
+MODELOS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile']
 
 def area_chat():
     contenedorDelChat = st.container(height=400, border=True)
