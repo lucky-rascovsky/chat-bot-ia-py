@@ -7,7 +7,7 @@ def configurar_pagina():
 
     st.title("Mi chat de IA")
     st.sidebar.title("Configuración de la IA") # Creamos un sidebar con un título.
-    elegirModelo =  st.sidebar.selectbox('Elegí un Modelo', options=MODELOS, index=0)
+    elegirModelo =  st.sidebar.selectbox('Elija un Modelo', options=MODELOS, index=0)
     return elegirModelo
 
 def crear_usuario_groq():
