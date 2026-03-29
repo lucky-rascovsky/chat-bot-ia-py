@@ -5,7 +5,7 @@ def configurar_pagina():
 
     # Agregamos un título principal a nuestra página
 
-    st.title("Mi chat de IA")
+    st.title("¡Hola, Bienvenido al chat de IA!")
     st.sidebar.title("Configuración de la IA") # Creamos un sidebar con un título.
     elegirModelo =  st.sidebar.selectbox('Elija un Modelo', options=MODELOS, index=0)
     return elegirModelo
